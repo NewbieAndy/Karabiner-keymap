@@ -1,0 +1,26 @@
+{
+  "title": "launch eduic",
+  "rules": [
+    {
+      "description": "launch eduic",
+      "manipulators": [
+        {
+          "from": {
+            "key_code": "delete_forward"
+          },
+          "to": [
+            {
+              "key_code": "d",
+              "modifiers": [
+                "control",
+                "shift",
+                "command"
+              ]
+            }
+          ],
+          "type": "basic"
+        }
+      ]
+    }
+  ]
+}

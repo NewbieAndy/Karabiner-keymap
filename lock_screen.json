@@ -1,0 +1,26 @@
+{
+  "title": "lock screen",
+  "rules": [
+    {
+      "description": "lock screen",
+      "manipulators": [
+        {
+          "from": {
+            "key_code": "pause"
+          },
+          "to": [
+            {
+              "key_code": "q",
+              "modifiers": [
+                "fn",
+                "control",
+                "command"
+              ]
+            }
+          ],
+          "type": "basic"
+        }
+      ]
+    }
+  ]
+}

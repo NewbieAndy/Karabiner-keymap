@@ -1,0 +1,25 @@
+{
+  "title": "launch iterm2",
+  "rules": [
+    {
+      "description": "launch iterm2",
+      "manipulators": [
+        {
+          "from": {
+            "key_code": "print_screen"
+          },
+          "to": [
+            {
+              "key_code": "r",
+              "modifiers": [
+                "shift",
+                "command"
+              ]
+            }
+          ],
+          "type": "basic"
+        }
+      ]
+    }
+  ]
+}
